@@ -1,0 +1,30 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+/backend/apps/common/fixtures/shifts_fixture.json
+
+# If you are using PyCharm #
+# User-specific stuff
+.idea
+.idea/*
+
+# Env files
+/backend/config/.env
+/backend/.env
+/frontend/.env
+/.env.db
+
+# Node modules
+
+# venv
+/backend/venv
+
+# schema.yml
+/backend/schema.yml
+
+# macOS files
+.DS_Store
