@@ -22,6 +22,7 @@ media
 
 # venv
 /backend/venv
+/venv
 
 # schema.yml
 /backend/schema.yml
