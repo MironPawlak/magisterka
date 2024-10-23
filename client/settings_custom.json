@@ -1,0 +1,16 @@
+[
+   {
+      "type": "string",
+      "title": "Button text",
+      "desc": "text on the button",
+      "section": "Appsettings",
+      "key": "text"
+   },
+   {
+      "type": "numeric",
+      "title": "Button font size",
+      "desc": "font size",
+      "section": "Appsettings",
+      "key": "font_size"
+   }
+]

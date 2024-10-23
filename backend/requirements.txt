@@ -6,3 +6,5 @@ tzdata==2022.7
 whitenoise==6.2.0
 environs
 riotwatcher
+pyside6
+kivy
