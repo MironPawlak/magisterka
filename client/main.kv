@@ -9,48 +9,79 @@
         
         Tab:
             title: 'Live game'
+            Label:
+                id: champion_select_label
+                text: "No active champion select"
+                # on_press: app.update_champion_select()
             GridLayout:
+                id: champion_select_layout
+                opacity: 0
                 cols: 2
-                GridLayout:
-                    cols: 2
-                    size_hint_x: .7
-                    Image:
-                        source: '1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '-1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '-1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '-1.png'
-                        size: self.texture_size
-                    Image:
-                        source: '-1.png'
-                        size: self.texture_size
                 BoxLayout:
                     orientation: 'vertical'
-                    size_hint_x: .3
                     Label:
-                        text: 'c'
+                        text: "Champion Select"
+                        font_size: '40dp'
+                        height: 100
+                        size_hint_y: None
+                    GridLayout:
+                        cols: 2
+                        spacing: (10, 10)
+                        Label:
+                            text: "Ally team"
+                            font_size: '20dp'
+
+                        Label:
+                            text: "Enemy team"
+                            font_size: '20dp'
+
+                        ChampionImage:
+                            id: ally_0
+                        ChampionImage:
+                            id: enemy_0
+                        ChampionImage:
+                            id: ally_1
+                        ChampionImage:
+                            id: enemy_1
+                        ChampionImage:
+                            id: ally_2
+                        ChampionImage:
+                            id: enemy_2
+                        ChampionImage:
+                            id: ally_3
+                        ChampionImage:
+                            id: enemy_3
+                        ChampionImage:
+                            id: ally_4
+                        ChampionImage:
+                            id: enemy_4
+                BoxLayout:
+                    orientation: 'vertical'
+#                    position_hint: {'center_x':0.5, 'center_y':0.5}
                     Label:
-                        text: 'd'
+                        text: "Bans:"
+                        font_size: '40dp'
+                        height: 100
+                        size_hint_y: None
+                    GridLayout:
+
+                        id: bans
+                        pos: self.pos
+                        cols: 5
+                        row_default_height: 70
+                        row_force_default: True
+                        height: 150
+                        size_hint_y: None
+
+                    Label:
+                        text: "Suggested Picks:"
+                        font_size: '40dp'
+                        height: 100
+                        size_hint_y: None
+                    BoxLayout:
+                        orientation: 'vertical'
+                        id: suggestions
+
 
         
         Tab:
@@ -61,15 +92,8 @@
                 id: tabs
                 on_tab_switch: app.on_tab_switch(*args)
                 Tab:
+                    id: all_tab
                     title: "All"
-                    GridLayout:
-                        cols: 1
-                        Label:
-                            text: "a"
-                        Label:
-                            text: "b"
-                        Label:
-                            text: "c"
                 Tab:
                     title: "Top"
 
@@ -84,29 +108,6 @@
 
                 Tab:
                     title: "Support"
-
-
-#            MDSegmentedControl:
-#                radius: 0
-#                on_active: app.refresh_list(*args)
-#
-#                MDSegmentedControlItem:
-#                    text: "All"
-#
-#                MDSegmentedControlItem:
-#                    text: "Top"
-#
-#                MDSegmentedControlItem:
-#                    text: "Jungle"
-#
-#                MDSegmentedControlItem:
-#                    text: "Mid"
-#
-#                MDSegmentedControlItem:
-#                    text: "Adc"
-#
-#                MDSegmentedControlItem:
-#                    text: "Support"
 
         
         Tab:

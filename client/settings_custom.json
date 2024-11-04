@@ -1,16 +1,16 @@
 [
    {
       "type": "string",
-      "title": "Button text",
-      "desc": "text on the button",
+      "title": "Server url",
+      "desc": "URL to connect to main server",
       "section": "Appsettings",
-      "key": "text"
+      "key": "server_url"
    },
    {
       "type": "numeric",
-      "title": "Button font size",
-      "desc": "font size",
+      "title": "Server Port",
+      "desc": "Port to connect to main server",
       "section": "Appsettings",
-      "key": "font_size"
+      "key": "port"
    }
 ]

@@ -1,0 +1,67 @@
+[
+  {
+    "key": 120,
+    "name": "Akshan",
+    "Won": 2000,
+    "Lost": 1950,
+    "Banned": 300,
+    "Total": 20000
+  },
+  {
+    "key": 103,
+    "name": "Ahri",
+    "Won": 2500,
+    "Lost": 2950,
+    "Banned": 500,
+    "Total": 20000
+  },
+  {
+    "key": 14,
+    "name": "Sion",
+    "Won": 1000,
+    "Lost": 1050,
+    "Banned": 900,
+    "Total": 20000
+  },
+
+  {
+    "key": 29,
+    "name": "Twitch",
+    "Won": 4000,
+    "Lost": 4950,
+    "Banned": 1200,
+    "Total": 20000
+  },
+  {
+    "key": 29,
+    "name": "Twitch",
+    "Won": 4000,
+    "Lost": 4950,
+    "Banned": 1200,
+    "Total": 20000
+  },
+  {
+    "key": 29,
+    "name": "Twitch",
+    "Won": 4000,
+    "Lost": 4950,
+    "Banned": 1200,
+    "Total": 20000
+  },
+  {
+    "key": 29,
+    "name": "Twitch",
+    "Won": 4000,
+    "Lost": 4950,
+    "Banned": 1200,
+    "Total": 20000
+  },
+  {
+    "key": 29,
+    "name": "Twitch",
+    "Won": 4000,
+    "Lost": 4950,
+    "Banned": 1200,
+    "Total": 20000
+  }
+]
