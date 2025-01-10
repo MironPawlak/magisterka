@@ -1,26 +1,47 @@
-version: "3.7"
-
 services:
-  web:
-      build: ./backend
-      command: "python manage.py runserver 0.0.0.0:8000"
-      volumes:
-        - ./backend:/usr/src/app/
-      ports:
-        - "8000:8000"
-      depends_on:
-        - db
-      env_file:
-        - ./backend/config/.env
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: django-monolith:1.0.0
+    container_name: django
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - /var/www/static:/var/www/static
+      - /var/www/media:/var/www/media
+    depends_on:
+      - db
+    env_file:
+      - ./backend/config/.env
 
   db:
     image: postgres:12.0-alpine
+    restart: always
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     ports:
       - "5432:5432"
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
     env_file:
       - ./.env.db
 
+  nginx:
+    image: nginx:stable-alpine
+    container_name: nginx
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/conf.d/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      # - /etc/ssl/certs/<your_cert>.cer:/etc/ssl/certs/<your_cert>.cer
+      # - /etc/ssl/private/<your_key>.key:/etc/ssl/private/<your_key>.key
+      - /var/www/static:/var/www/static
+      # - /var/www/media:/var/www/media
+    depends_on:
+      - django
 volumes:
-  postgres_data:
+    postgres_data:
