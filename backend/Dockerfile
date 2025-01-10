@@ -4,4 +4,5 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /usr/src/app
 COPY requirements.txt /usr/src/app/
 RUN pip install -r requirements.txt
+RUN apt update && apt -y install postgresql-client
 COPY . /usr/src/app/

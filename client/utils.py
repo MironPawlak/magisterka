@@ -9,7 +9,7 @@ def replace_names_with_keys():
     champion_info = {}
     for key, value in data["data"].items():
         champion_info[value["id"]] = value["key"]
-    icon_path = "C:/Users/pyron/PycharmProjects/magisterka/client/icons/"
+    icon_path = "icons/"
     for item in os.listdir(icon_path):
         if item[:-4] in champion_info:
             shutil.copy(icon_path + item, icon_path + champion_info[item[:-4]] + '.png')

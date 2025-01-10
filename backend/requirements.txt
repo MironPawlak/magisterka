@@ -8,3 +8,9 @@ environs
 riotwatcher
 pyside6
 kivy
+django-dbbackup
+pandas
+xgboost
+scikit-learn
+matplotlib
+djangorestframework

@@ -14,7 +14,7 @@ class Command(BaseCommand):
         with open(path, "r") as json_file:
             data = json.load(json_file)
             for name in data["data"]:
-                if not Champion.objects.filter(name=name).exists():
+                if not Champion.objects.filter(riot_id=name).exists():
                     Champion.objects.create(name=data["data"][name]["name"], key=data["data"][name]["key"],
                                             riot_id=data["data"][name]["id"])
 

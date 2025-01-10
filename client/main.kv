@@ -1,18 +1,18 @@
 
 
 <RootWidget>:
-    # test: test_input
 
     MDTabs:
         id: main_panel
         do_default_tab: False
-        
+        lock_swiping: True
+        __safe_id: [drop_select.__self__]
+
         Tab:
             title: 'Live game'
             Label:
                 id: champion_select_label
                 text: "No active champion select"
-                # on_press: app.update_champion_select()
             GridLayout:
                 id: champion_select_layout
                 opacity: 0
@@ -57,22 +57,67 @@
                             id: enemy_4
                 BoxLayout:
                     orientation: 'vertical'
-#                    position_hint: {'center_x':0.5, 'center_y':0.5}
                     Label:
                         text: "Bans:"
                         font_size: '40dp'
                         height: 100
                         size_hint_y: None
                     GridLayout:
-
                         id: bans
                         pos: self.pos
                         cols: 5
-                        row_default_height: 70
+                        row_default_height: 40
                         row_force_default: True
-                        height: 150
+                        height: 120
                         size_hint_y: None
+                    Button:
+                        height: 30
+                        size_hint_x: 0.5
+                        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                        id: drop_btn
+                        text: 'Select your role'
+                        size_hint_y: None
+                        on_parent: drop_select.dismiss()
+                        on_release: drop_select.open(self)
 
+                    DropDown:
+                        id: drop_select
+                        on_select: drop_btn.text = '{}'.format(args[1])
+
+                        Button:
+                            id: units_num_btn_1
+                            text: 'Top'
+                            size_hint_y: None
+                            height: 35
+                            on_release: drop_select.select('Top')
+
+                        Button:
+                            id: units_num_btn_1
+                            text: 'Jungle'
+                            size_hint_y: None
+                            height: 35
+                            on_release: drop_select.select('Jungle')
+
+                        Button:
+                            id: units_num_btn_2
+                            text: 'Middle'
+                            size_hint_y: None
+                            height: 35
+                            on_release: drop_select.select('Middle')
+
+                        Button:
+                            id: units_num_btn_3
+                            text: 'Bottom'
+                            size_hint_y: None
+                            height: 35
+                            on_release: drop_select.select('Bottom')
+
+                        Button:
+                            id: units_num_btn_4
+                            text: 'Support'
+                            size_hint_y: None
+                            height: 35
+                            on_release: drop_select.select('Support')
                     Label:
                         text: "Suggested Picks:"
                         font_size: '40dp'
@@ -91,10 +136,9 @@
             MDTabs:
                 id: tabs
                 on_tab_switch: app.on_tab_switch(*args)
+                lock_swiping: True
                 Tab:
-                    id: all_tab
-                    title: "All"
-                Tab:
+                    id: top_tab
                     title: "Top"
 
                 Tab:
@@ -109,7 +153,30 @@
                 Tab:
                     title: "Support"
 
-        
+
+        Tab:
+            title: 'Counters'
+            RelativeLayout:
+                BoxLayout:
+                    pos_hint: {"x": .55, "y": .92}
+                    size_hint_y: 0.04
+                    size_hint_x: 0.4
+                    Label:
+                        text: "Type champion to get counters"
+                    TextInput:
+                        text: ""
+                        id: counter_input
+                        multiline: False
+                    MDIconButton:
+                        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                        icon: 'magnify'
+                        on_press: app.load_counters()
+                BoxLayout:
+                    pos_hint: {"x": 0, "y": 0}
+                    size_hint_y: 0.9
+                    id: counter_stats
+
+
         Tab:
             title: 'Settings'
             id: settings_content

@@ -1,0 +1,9 @@
+docutils
+pygments
+pypiwin32
+kivy.deps.glew
+kivy==2.3.0
+kivymd==1.1.1
+pyinstaller==5.6.2
+pyinstaller-hooks-contrib==2022.14
+psutil

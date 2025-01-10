@@ -1,0 +1,2201 @@
+{
+  8: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_d
+    mg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 104: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    ass
+    its
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_
+    dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 38: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 67: {'
+    games_
+    played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 1
+    10729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  526: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ':
+    273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  516: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_t
+    aken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 141: {'
+    games_played
+    ': 1
+    00,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'ma
+    gic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 10: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'te
+    ammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 145: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 9089
+    28,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  53: {
+    'games_played': 100,
+    'gold_ea
+    rned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_deal
+    t
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 58: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    tot
+    al_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 59: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical
+    _dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 901: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 10373
+    23,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  78: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 31: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ':
+    1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  200: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experie
+    nce
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dm
+    g_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 157: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    tu
+    rret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_sh
+    ields
+    ': 46438, '
+    self_heal
+    ': 596828}, 45: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 32: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 120038
+    0,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 85
+    9458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  84: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedown
+    s
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438,
+    'self_heal': 596828
+  },
+  360: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mit
+    igated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 44: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ':
+    512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken': 110968,
+    'magic_dmg_taken': 908928,
+    'physical_dmg_taken': 1326150,
+    'self_dmg_mitigated': 2067619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minio
+    ns_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828}, 254: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    t
+    rue_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_hea
+    l
+    ': 596828}, 777: {'
+    games_played
+    ': 100, '
+    gold_earned
+    ': 1037323, '
+    experience
+    ': 1200380, '
+    kills
+    ': 512, '
+    deaths
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 20
+    67619,
+    'true_dmg_dealt': 110729,
+    'magic_dmg_dealt': 859056,
+    'physical_dmg_dealt': 859458,
+    'minions_killed': 0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  89: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'death
+    s
+    ': 512, '
+    assits
+    ': 784, '
+    time_ccing
+    ': 2199, '
+    total_cc_time
+    ': 25107, '
+    turret_takedowns
+    ': 176, '
+    true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ':
+    0,
+    'turrets_dmg_dealt': 273301,
+    'teammate_heals': 104701,
+    'teammate_shields': 46438,
+    'self_heal': 596828
+  },
+  7: {
+    'games_played': 100,
+    'gold_earned': 1037323,
+    'experience': 1200380,
+    'kills': 512,
+    'deaths': 512,
+    'assits': 784,
+    'time_ccing': 2199,
+    'total_cc_time': 25107,
+    'turret_takedowns': 176,
+    'true_dmg_taken
+    ': 110968, '
+    magic_dmg_taken
+    ': 908928, '
+    physical_dmg_taken
+    ': 1326150, '
+    self_dmg_mitigated
+    ': 2067619, '
+    true_dmg_dealt
+    ': 110729, '
+    magic_dmg_dealt
+    ': 859056, '
+    physical_dmg_dealt
+    ': 859458, '
+    minions_killed
+    ': 0, '
+    turrets_dmg_dealt
+    ': 273301, '
+    teammate_heals
+    ': 104701, '
+    teammate_shields
+    ': 46438, '
+    self_heal
+    ': 596828},
+    221: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_
+      dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 57: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      ass
+      its
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_
+      dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 60: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 85: {'
+      games_
+      played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 1
+      10729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    80: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      't
+      ime_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 2
+      73301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    893: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_ta
+      ken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 64: {'
+      games_played
+      ': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magi
+      c_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 16: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ':
+      2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'team
+      mate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 63: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    115: {
+      'games_played': 100,
+      'gold_earn
+      ed
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056,
+      'physical_dmg_dealt': 859458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    37: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total
+      _cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ':
+      104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    61: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_d
+      mg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 267: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'p
+      hysical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 4: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25
+      107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'tea
+      mmate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 203: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1
+      326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    887: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experienc
+      e
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_
+      dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 12: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turre
+      t_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shiel
+      ds
+      ': 46438, '
+      self_heal
+      ': 596828}, 164: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      se
+      lf_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 517: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859
+      458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    91: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438,
+      'self_heal': 596828
+    },
+    96: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitig
+      ated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 117: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 5
+      12,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken': 110968,
+      'magic_dmg_taken': 908928,
+      'physical_dmg_taken': 1326150,
+      'self_dmg_mitigated': 2067619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859458,
+      'minion
+      s_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 222: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      tr
+      ue_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828}, 35: {'
+      games_played
+      ': 100, '
+      gold_earned
+      ': 1037323, '
+      experience
+      ': 1200380, '
+      kills
+      ': 512, '
+      deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067
+      619,
+      'true_dmg_dealt': 110729,
+      'magic_dmg_dealt': 859056,
+      'physical_dmg_dealt': 859458,
+      'minions_killed': 0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    897: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths
+      ': 512, '
+      assits
+      ': 784, '
+      time_ccing
+      ': 2199, '
+      total_cc_time
+      ': 25107, '
+      turret_takedowns
+      ': 176, '
+      true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ':
+      0,
+      'turrets_dmg_dealt': 273301,
+      'teammate_heals': 104701,
+      'teammate_shields': 46438,
+      'self_heal': 596828
+    },
+    13: {
+      'games_played': 100,
+      'gold_earned': 1037323,
+      'experience': 1200380,
+      'kills': 512,
+      'deaths': 512,
+      'assits': 784,
+      'time_ccing': 2199,
+      'total_cc_time': 25107,
+      'turret_takedowns': 176,
+      'true_dmg_taken
+      ': 110968, '
+      magic_dmg_taken
+      ': 908928, '
+      physical_dmg_taken
+      ': 1326150, '
+      self_dmg_mitigated
+      ': 2067619, '
+      true_dmg_dealt
+      ': 110729, '
+      magic_dmg_dealt
+      ': 859056, '
+      physical_dmg_dealt
+      ': 859458, '
+      minions_killed
+      ': 0, '
+      turrets_dmg_dealt
+      ': 273301, '
+      teammate_heals
+      ': 104701, '
+      teammate_shields
+      ': 46438, '
+      self_heal
+      ': 596828},
+      236: {
+        'games_played': 100,
+        'gold_earned': 1037323,
+        'experience': 1200380,
+        'kills': 512,
+        'deaths': 512,
+        'assits': 784,
+        'time_ccing': 2199,
+        'total_cc_time': 25107,
+        'turret_takedowns': 176,
+        'true_dmg_taken': 110968,
+        'magic_dmg_taken': 908928,
+        'physical_dmg_taken': 1326150,
+        'self_dmg_mitigated': 2067619,
+        'true_
+        dmg_dealt
+        ': 110729, '
+        magic_dmg_dealt
+        ': 859056, '
+        physical_dmg_dealt
+        ': 859458, '
+        minions_killed
+        ': 0, '
+        turrets_dmg_dealt
+        ': 273301, '
+        teammate_heals
+        ': 104701, '
+        teammate_shields
+        ': 46438, '
+        self_heal
+        ': 596828}, 235: {'
+        games_played
+        ': 100, '
+        gold_earned
+        ': 1037323, '
+        experience
+        ': 1200380, '
+        kills
+        ': 512, '
+        deaths
+        ': 512, '
+        as
+        sits
+        ': 784, '
+        time_ccing
+        ': 2199, '
+        total_cc_time
+        ': 25107, '
+        turret_takedowns
+        ': 176, '
+        true_dmg_taken
+        ': 110968, '
+        magic_dmg_taken
+        ': 908928, '
+        physical_dmg_taken
+        ': 1326150, '
+        self_dmg_mitigated
+        ': 2067619, '
+        true_dmg_dealt
+        ': 110729, '
+        magic_dmg_dealt
+        ': 859056, '
+        physical_dmg_dealt
+        ': 859458, '
+        minions_killed
+        ': 0, '
+        turrets
+        _dmg_dealt
+        ': 273301, '
+        teammate_heals
+        ': 104701, '
+        teammate_shields
+        ': 46438, '
+        self_heal
+        ': 596828}, 9: {'
+        games_played
+        ': 100, '
+        gold_earned
+        ': 1037323, '
+        experience
+        ': 1200380, '
+        kills
+        ': 512, '
+        deaths
+        ': 512, '
+        assits
+        ': 784, '
+        time_ccing
+        ': 2199, '
+        total_cc_time
+        ': 25107, '
+        turret_takedowns
+        ': 176, '
+        true_dmg_taken
+        ': 110968, '
+        magic_dmg_taken
+        ': 908928, '
+        physical_dmg_taken
+        ': 1326150, '
+        self_dmg_mitigated
+        ': 2067619, '
+        true_dmg_dealt
+        ': 110729, '
+        magic_dmg_dealt
+        ': 859056, '
+        physical_dmg_dealt
+        ': 859458, '
+        minions_killed
+        ': 0, '
+        turrets_dmg_dealt
+        ': 273301, '
+        teammate_heals
+        ': 104701, '
+        teammate_shields
+        ': 46438, '
+        self_heal
+        ': 596828}, 166: {'
+        games
+        _played
+        ': 100, '
+        gold_earned
+        ': 1037323, '
+        experience
+        ': 1200380, '
+        kills
+        ': 512, '
+        deaths
+        ': 512, '
+        assits
+        ': 784, '
+        time_ccing
+        ': 2199, '
+        total_cc_time
+        ': 25107, '
+        turret_takedowns
+        ': 176, '
+        true_dmg_taken
+        ': 110968, '
+        magic_dmg_taken
+        ': 908928, '
+        physical_dmg_taken
+        ': 1326150, '
+        self_dmg_mitigated
+        ': 2067619, '
+        true_dmg_dealt
+        ':
+        110729,
+        'magic_dmg_dealt': 859056,
+        'physical_dmg_dealt': 859458,
+        'minions_killed': 0,
+        'turrets_dmg_dealt': 273301,
+        'teammate_heals': 104701,
+        'teammate_shields': 46438,
+        'self_heal': 596828
+      },
+      429: {
+        'games_played': 100,
+        'gold_earned': 1037323,
+        'experience': 1200380,
+        'kills': 512,
+        'deaths': 512,
+        'assits': 784,
+        'time_ccing': 2199,
+        'total_cc_time': 25107,
+        'turret_takedowns': 176,
+        'true_dmg_taken': 110968,
+        'magic_dmg_taken': 908928,
+        'physical_dmg_taken': 1326150,
+        'self_dmg_mitigated': 2067619,
+        'true_dmg_dealt': 110729,
+        'magic_dmg_dealt': 859056,
+        'physical_dmg_dealt': 859458,
+        'minions_killed': 0,
+        'turrets_dmg_dealt': 273301,
+        'teammate_heals': 104701,
+        'teammate_shields': 46438,
+        'self_heal': 596828
+      },
+      412: {
+        'games_played': 100,
+        'gold_earned': 1037323,
+        'experience': 1200380,
+        'kills': 512,
+        'deaths': 512,
+        'assits': 784,
+        'time_ccing': 2199,
+        'total_cc_time': 25107,
+        'turret_takedowns': 176,
+        'true_dmg_taken': 110968,
+        'magic_dmg_
+        taken
+        ': 908928, '
+        physical_dmg_taken
+        ': 1326150, '
+        self_dmg_mitigated
+        ': 2067619, '
+        true_dmg_dealt
+        ': 110729, '
+        magic_dmg_dealt
+        ': 859056, '
+        physical_dmg_dealt
+        ': 859458, '
+        minions_killed
+        ': 0, '
+        turrets_dmg_dealt
+        ': 273301, '
+        teammate_heals
+        ': 104701, '
+        teammate_shields
+        ': 46438, '
+        self_heal
+        ': 596828}, 902: {'
+        games_played
+        ':
+        100,
+        'gold_earned': 1037323,
+        'experience': 1200380,
+        'kills': 512,
+        'deaths': 512,
+        'assits': 784,
+        'time_ccing': 2199,
+        'total_cc_time': 25107,
+        'turret_takedowns': 176,
+        'true_dmg_taken': 110968,
+        'magic_dmg_taken': 908928,
+        'physical_dmg_taken': 1326150,
+        'self_dmg_mitigated': 2067619,
+        'true_dmg_dealt': 110729,
+        'm
+        agic_dmg_dealt
+        ': 859056, '
+        physical_dmg_dealt
+        ': 859458, '
+        minions_killed
+        ': 0, '
+        turrets_dmg_dealt
+        ': 273301, '
+        teammate_heals
+        ': 104701, '
+        teammate_shields
+        ': 46438, '
+        self_heal
+        ': 596828}, 29: {'
+        games_played
+        ': 100, '
+        gold_earned
+        ': 1037323, '
+        experience
+        ': 1200380, '
+        kills
+        ': 512, '
+        deaths
+        ': 512, '
+        assits
+        ': 784, '
+        time_ccing
+        ': 2199, '
+        total_cc_time
+        ': 25107, '
+        turret_takedowns
+        ': 176, '
+        true_dmg_taken
+        ': 110968, '
+        magic_dmg_taken
+        ': 908928, '
+        physical_dmg_taken
+        ': 1326150, '
+        self_dmg_mitigated
+        ': 2067619, '
+        true_dmg_dealt
+        ': 110729, '
+        magic_dmg_dealt
+        ': 859056, '
+        physical_dmg_dealt
+        ': 859458, '
+        minions_killed
+        ': 0, '
+        turrets_dmg_dealt
+        ': 273301, '
+        t
+        eammate_heals
+        ': 104701, '
+        teammate_shields
+        ': 46438, '
+        self_heal
+        ': 596828}, 51: {'
+        games_played
+        ': 100, '
+        gold_earned
+        ': 1037323, '
+        experience
+        ': 1200380, '
+        kills
+        ': 512, '
+        deaths
+        ': 512, '
+        assits
+        ': 784, '
+        time_ccing
+        ': 2199, '
+        total_cc_time
+        ': 25107, '
+        turret_takedowns
+        ': 176, '
+        true_dmg_taken
+        ': 110968, '
+        magic_dmg_taken
+        ': 9089
+        28,
+        'physical_dmg_taken': 1326150,
+        'self_dmg_mitigated': 2067619,
+        'true_dmg_dealt': 110729,
+        'magic_dmg_dealt': 859056,
+        'physical_dmg_dealt': 859458,
+        'minions_killed': 0,
+        'turrets_dmg_dealt': 273301,
+        'teammate_heals': 104701,
+        'teammate_shields': 46438,
+        'self_heal': 596828
+      }
+    }
