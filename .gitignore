@@ -31,7 +31,6 @@ media
 .DS_Store
 
 /PickApp
-PickApp.zip
 SPEC_FILE.txt
 /backend/backup
 /backend/data
