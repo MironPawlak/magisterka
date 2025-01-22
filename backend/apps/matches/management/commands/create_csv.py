@@ -34,7 +34,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         csv_name = "data/matches.csv"
-        sm = SimpleMatch.objects.filter(date__gt=datetime.date(2024, 11, 1)).iterator()
+        sm = SimpleMatch.objects.filter(date__gt=datetime.date(2025, 1, 8)).iterator()
+        # sm = SimpleMatch.objects.all().iterator()
         model_fields = [f"champion__champ_class__{field.name}" for field in ChampionClass._meta.get_fields() if
                         field.name in ("true_dmg_taken", "magic_dmg_taken", "physical_dmg_taken", "self_dmg_mitigated",
                                        "true_dmg_dealt", "magic_dmg_dealt", "physical_dmg_dealt")]
@@ -45,7 +46,7 @@ class Command(BaseCommand):
                     winner = 1
                 else:
                     winner = 0
-                # winner = calculate_index(match.game_duration, match.gold_difference, match.kill_difference,
+                # winner = calculate_index(match.game_duration, match.gold_difference, match.kill_difference,d
                 #                        match.exp_difference, match.won)
 
                 if csv_name == "data/matches.csv":

@@ -154,7 +154,7 @@ class MainApp(MDApp):
 
     def build_config(self, config):
         config.setdefaults(
-            'Appsettings', {'server_url': '127.0.0.1', 'port': 8000}
+            'Appsettings', {'server_url': 'pyron.asuscomm.com', 'port': 7000}
         )
 
     def build_settings(self, settings):
@@ -253,8 +253,6 @@ class MainApp(MDApp):
 
             hide_widget(self.root.ids.champion_select_layout, show=True)
             hide_widget(self.root.ids.champion_select_label)
-            # f = open('lobby/ranked_picked.json')
-            # data = json.load(f)
 
             allies = [(player["cellId"], player["championId"]) for player in data.get("myTeam")]
             enemies = [(player["cellId"], player["championId"]) for player in data.get("theirTeam")]

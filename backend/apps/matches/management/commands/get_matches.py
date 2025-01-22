@@ -44,5 +44,5 @@ class Command(BaseCommand):
                     print('Pause')
                     if not matches and not player:
                         raise CommandError("End of data")
-            except requests.exceptions.ConnectionError:
+            except (requests.exceptions.ConnectionError, requests.exceptions.HTTPError):
                 time.sleep(60 * 5)
