@@ -18,8 +18,7 @@ class Match(models.Model):
 
 class Player(models.Model):
     puuid = models.CharField(max_length=128, unique=True)
-    # TODO Start of split, think about something else
-    last_update = models.DateTimeField(default=datetime(2024, 9, 26))
+    last_update = models.DateTimeField(default=datetime(2025, 1, 9))
 
 
 class Champion(models.Model):
@@ -54,6 +53,11 @@ class SimpleMatch(models.Model):
     picks = models.ManyToManyField(Champion, through=MatchChampion)
     bans = models.ManyToManyField(Champion, related_name="bans")
 
+    class Meta:
+        indexes = [
+            models.Index(fields=['date'], name='date_idx'),
+        ]
+
 
 class ChampionClass(models.Model):
     champion = models.OneToOneField("matches.Champion", on_delete=models.CASCADE, related_name="champ_class")
@@ -76,3 +80,8 @@ class ChampionClass(models.Model):
     teammate_heals = models.DecimalField(max_digits=15, decimal_places=5)
     teammate_shields = models.DecimalField(max_digits=15, decimal_places=5)
     self_heal = models.DecimalField(max_digits=15, decimal_places=5)
+
+
+class ChampionCounters(models.Model):
+    champion = models.ForeignKey(Champion, on_delete=models.CASCADE)
+    counters = models.JSONField()
