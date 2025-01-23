@@ -37,10 +37,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx/conf.d/nginx.conf:/etc/nginx/conf.d/nginx.conf
-      # - /etc/ssl/certs/<your_cert>.cer:/etc/ssl/certs/<your_cert>.cer
-      # - /etc/ssl/private/<your_key>.key:/etc/ssl/private/<your_key>.key
       - /var/www/static:/var/www/static
-      # - /var/www/media:/var/www/media
     depends_on:
       - django
 volumes:

@@ -16,3 +16,4 @@ matplotlib
 djangorestframework
 keras==3.3.3
 tensorflow
+gunicorn
