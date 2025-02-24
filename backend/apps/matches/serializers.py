@@ -4,6 +4,7 @@ from apps.matches.models import POSITION_CHOICES, Statistic, Champion
 
 class PredictionInputSerializer(serializers.Serializer):
     position = serializers.ChoiceField(choices=POSITION_CHOICES)
+    username = serializers.CharField(allow_null=True, required=False)
     allies = serializers.ListField(child=serializers.IntegerField())
     enemies = serializers.ListField(child=serializers.IntegerField())
     bans = serializers.ListField(child=serializers.IntegerField())

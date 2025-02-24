@@ -10,14 +10,10 @@ from keras.src.utils import to_categorical
 from tensorflow import keras
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 
-'''
-Zmienić na to k fold validation, random state dać, ustalić na sztywno pozycję i w ten sposób patrzeć 
-Przewidywać prawdopodobieństwa,  brier score
-'''
 # file = "matches_class.csv"
 file = "../data/matches.csv"
 
-FEATURES = 169
+FEATURES = 170
 # FEATURES = 35
 dataframe = pd.read_csv(file, header=None)
 
