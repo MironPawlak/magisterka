@@ -1,188 +1,247 @@
+<ContentNavigationDrawer>
+
+    MDList:
+
+        OneLineListItem:
+            text: "Live game"
+            on_press:
+                root.nav_drawer.set_state("close")
+                root.screen_manager.current = "Live game"
+
+        OneLineListItem:
+            text: "Statistics"
+            on_press:
+                root.nav_drawer.set_state("close")
+                root.screen_manager.current = "Statistics"
+
+        OneLineListItem:
+            text: "Counters"
+            on_press:
+                root.nav_drawer.set_state("close")
+                root.screen_manager.current = "Counters"
+
+        OneLineListItem:
+            text: "Settings"
+            on_press:
+                root.nav_drawer.set_state("close")
+                root.screen_manager.current = "Settings"
+
+        OneLineListItem:
+            text: "Information"
+            on_press:
+                root.nav_drawer.set_state("close")
+                root.screen_manager.current = "Information"
 
 
 <RootWidget>:
+    TopBar:
+        id: toolbar
+        pos_hint: {"top": 1}
+        elevation: 4
+        left_action_items: [["menu", lambda x: nav_drawer.set_state("open")]]
 
-    MDTabs:
+    MDNavigationLayout:
         id: main_panel
-        do_default_tab: False
-        lock_swiping: True
         __safe_id: [drop_select.__self__]
+        x: toolbar.height
+        size_hint_y: 1.0 - toolbar.height/root.height
 
-        Tab:
-            title: 'Live game'
-            Label:
-                id: champion_select_label
-                text: "No active champion select"
-            GridLayout:
-                id: champion_select_layout
-                opacity: 0
-                cols: 2
-                BoxLayout:
-                    orientation: 'vertical'
-                    Label:
-                        text: "Champion Select"
-                        font_size: '40dp'
-                        height: 100
-                        size_hint_y: None
-                    GridLayout:
-                        cols: 2
-                        spacing: (10, 10)
-                        Label:
-                            text: "Ally team"
-                            font_size: '20dp'
+        MDScreenManager:
+            id: screen_manager
 
-                        Label:
-                            text: "Enemy team"
-                            font_size: '20dp'
+            MDScreen:
+                name: 'Live game'
+                Label:
+                    id: champion_select_label
+                    text: "No active champion select"
 
-                        ChampionImage:
-                            id: ally_0
-                        ChampionImage:
-                            id: enemy_0
-                        ChampionImage:
-                            id: ally_1
-                        ChampionImage:
-                            id: enemy_1
-                        ChampionImage:
-                            id: ally_2
-                        ChampionImage:
-                            id: enemy_2
-                        ChampionImage:
-                            id: ally_3
-                        ChampionImage:
-                            id: enemy_3
-                        ChampionImage:
-                            id: ally_4
-                        ChampionImage:
-                            id: enemy_4
-                BoxLayout:
-                    orientation: 'vertical'
-                    Label:
-                        text: "Bans:"
-                        font_size: '40dp'
-                        height: 100
-                        size_hint_y: None
-                    GridLayout:
-                        id: bans
-                        pos: self.pos
-                        cols: 5
-                        row_default_height: 40
-                        row_force_default: True
-                        height: 120
-                        size_hint_y: None
-                    Button:
-                        height: 30
-                        size_hint_x: 0.5
-                        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
-                        id: drop_btn
-                        text: 'Select your role'
-                        size_hint_y: None
-                        on_parent: drop_select.dismiss()
-                        on_release: drop_select.open(self)
-
-                    DropDown:
-                        id: drop_select
-                        on_select: drop_btn.text = '{}'.format(args[1])
-
-                        Button:
-                            id: units_num_btn_1
-                            text: 'Top'
-                            size_hint_y: None
-                            height: 35
-                            on_release: drop_select.select('Top')
-
-                        Button:
-                            id: units_num_btn_1
-                            text: 'Jungle'
-                            size_hint_y: None
-                            height: 35
-                            on_release: drop_select.select('Jungle')
-
-                        Button:
-                            id: units_num_btn_2
-                            text: 'Middle'
-                            size_hint_y: None
-                            height: 35
-                            on_release: drop_select.select('Middle')
-
-                        Button:
-                            id: units_num_btn_3
-                            text: 'Bottom'
-                            size_hint_y: None
-                            height: 35
-                            on_release: drop_select.select('Bottom')
-
-                        Button:
-                            id: units_num_btn_4
-                            text: 'Support'
-                            size_hint_y: None
-                            height: 35
-                            on_release: drop_select.select('Support')
-                    Label:
-                        text: "Suggested Picks:"
-                        font_size: '40dp'
-                        height: 100
-                        size_hint_y: None
+                GridLayout:
+                    id: champion_select_layout
+                    opacity: 0
+                    cols: 2
                     BoxLayout:
                         orientation: 'vertical'
-                        id: suggestions
+                        Label:
+                            text: "Champion Select"
+                            font_size: '40dp'
+                            height: 100
+                            size_hint_y: None
+                        GridLayout:
+                            cols: 2
+                            spacing: (10, 10)
+                            Label:
+                                text: "Ally team"
+                                font_size: '20dp'
+
+                            Label:
+                                text: "Enemy team"
+                                font_size: '20dp'
+
+                            ChampionImage:
+                                id: ally_0
+                            ChampionImage:
+                                id: enemy_0
+                            ChampionImage:
+                                id: ally_1
+                            ChampionImage:
+                                id: enemy_1
+                            ChampionImage:
+                                id: ally_2
+                            ChampionImage:
+                                id: enemy_2
+                            ChampionImage:
+                                id: ally_3
+                            ChampionImage:
+                                id: enemy_3
+                            ChampionImage:
+                                id: ally_4
+                            ChampionImage:
+                                id: enemy_4
+                    BoxLayout:
+                        orientation: 'vertical'
+                        Label:
+                            text: "Bans:"
+                            font_size: '40dp'
+                            height: 100
+                            size_hint_y: None
+                        GridLayout:
+                            id: bans
+                            pos: self.pos
+                            cols: 5
+                            row_default_height: 40
+                            row_force_default: True
+                            height: 120
+                            size_hint_y: None
+                        Button:
+                            height: 30
+                            size_hint_x: 0.5
+                            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                            id: drop_btn
+                            text: 'Select your role'
+                            size_hint_y: None
+                            on_parent: drop_select.dismiss()
+                            on_release: drop_select.open(self)
+
+                        DropDown:
+                            id: drop_select
+                            on_select: drop_btn.text = '{}'.format(args[1])
+
+                            Button:
+                                id: units_num_btn_1
+                                text: 'Top'
+                                size_hint_y: None
+                                height: 35
+                                on_release: drop_select.select('Top')
+
+                            Button:
+                                id: units_num_btn_1
+                                text: 'Jungle'
+                                size_hint_y: None
+                                height: 35
+                                on_release: drop_select.select('Jungle')
+
+                            Button:
+                                id: units_num_btn_2
+                                text: 'Middle'
+                                size_hint_y: None
+                                height: 35
+                                on_release: drop_select.select('Middle')
+
+                            Button:
+                                id: units_num_btn_3
+                                text: 'Bottom'
+                                size_hint_y: None
+                                height: 35
+                                on_release: drop_select.select('Bottom')
+
+                            Button:
+                                id: units_num_btn_4
+                                text: 'Support'
+                                size_hint_y: None
+                                height: 35
+                        Label:
+                            text: "Suggested Picks:"
+                            font_size: '40dp'
+                            height: 100
+                            size_hint_y: None
+                        BoxLayout:
+                            orientation: 'vertical'
+                            id: suggestions
 
 
-        
-        Tab:
-            title: 'Statistics'
-            id: statistics_panel
 
-            MDTabs:
-                id: tabs
-                on_tab_switch: app.on_tab_switch(*args)
-                lock_swiping: True
-                Tab:
-                    id: top_tab
-                    title: "Top"
+            MDScreen:
+                name: 'Statistics'
+                id: statistics_panel
 
-                Tab:
-                    title: "Jungle"
+                MDTabs:
+                    id: tabs
+                    on_tab_switch: app.on_tab_switch(*args)
+                    lock_swiping: True
+                    Tab:
+                        id: top_tab
+                        title: "Top"
+                    Tab:
+                        title: "Jungle"
+                    Tab:
+                        title: "Mid"
+                    Tab:
+                        title: "Adc"
+                    Tab:
+                        title: "Support"
 
-                Tab:
-                    title: "Mid"
+            MDScreen:
+                name: 'Counters'
+                RelativeLayout:
+                    BoxLayout:
+                        pos_hint: {"x": .55, "y": .92}
+                        size_hint_y: 0.04
+                        size_hint_x: 0.4
+                        Label:
+                            text: "Type champion to get counters"
+                        TextInput:
+                            text: ""
+                            id: counter_input
+                            multiline: False
+                        MDIconButton:
+                            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                            icon: 'magnify'
+                            on_press: app.load_counters()
+                    BoxLayout:
+                        pos_hint: {"x": 0, "y": 0}
+                        size_hint_y: 0.9
+                        id: counter_stats
 
-                Tab:
-                    title: "Adc"
+            MDScreen:
+                name: 'Settings'
+                id: settings_content
 
-                Tab:
-                    title: "Support"
-
-
-        Tab:
-            title: 'Counters'
-            RelativeLayout:
+            MDScreen:
+                name: 'Information'
                 BoxLayout:
-                    pos_hint: {"x": .55, "y": .92}
-                    size_hint_y: 0.04
-                    size_hint_x: 0.4
+                    pos_hint: {"x": 0, "y": .6}
+                    orientation: 'vertical'
+                    size_hint_y: 0.4
                     Label:
-                        text: "Type champion to get counters"
-                    TextInput:
-                        text: ""
-                        id: counter_input
-                        multiline: False
-                    MDIconButton:
-                        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
-                        icon: 'magnify'
-                        on_press: app.load_counters()
-                BoxLayout:
-                    pos_hint: {"x": 0, "y": 0}
-                    size_hint_y: 0.9
-                    id: counter_stats
+                        text: "FAQ"
+                        font_size: '50sp'
+                    Label:
+                        text: "When you hover over a character in the program, the model will automatically consider it as selected. This behavior comes from the specifics of the LoL client. Be cautious to avoid unintended selections."
+                    Label:
+                        text: "The data is collected from the beginning of the new season and comes from higher ranks (Emerald+). "
+                    Label:
+                        text: "Please enter your nickname in the settings tab (if you're swapping accounts, it can be only one). This is mainly for me to identify users."
 
+        MDNavigationDrawer:
+            id: nav_drawer
+            # radius: (0, 12, 16, 0)
 
-        Tab:
-            title: 'Settings'
-            id: settings_content
+            ContentNavigationDrawer:
+                screen_manager: screen_manager
+                nav_drawer: nav_drawer
 
     TooltipMDIconButton:
         icon: app.icon
         tooltip_text: "Connection to League client status. Click to refresh"
         on_press: app.league_process_setup()
-        pos_hint: {"center_x": .96, "center_y": .97}
+        pos_hint: {"center_x": .96, "center_y": .96}

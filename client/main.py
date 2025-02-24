@@ -5,11 +5,12 @@ from contextlib import suppress
 from kivy.resources import resource_add_path
 import psutil
 import requests
-from kivy.properties import StringProperty, Clock
+from kivy.properties import StringProperty, Clock, ObjectProperty
 from kivy.uix.dropdown import DropDown
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.image import Image
 from kivy.uix.label import Label
+from kivy.uix.scrollview import ScrollView
 from kivymd.toast import toast
 from kivymd.app import MDApp
 from kivy.uix.floatlayout import FloatLayout
@@ -19,10 +20,15 @@ from kivymd.uix.button import MDIconButton
 from kivymd.uix.floatlayout import MDFloatLayout
 from kivymd.uix.scrollview import MDScrollView
 from kivymd.uix.tab import MDTabsBase
+from kivymd.uix.toolbar import MDTopAppBar
 from kivymd.uix.tooltip import MDTooltip
 from requests.auth import HTTPBasicAuth
 
 Window.size = (1400, 900)
+
+
+class TopBar(MDTopAppBar):
+    pass
 
 
 class TooltipMDIconButton(MDIconButton, MDTooltip):
@@ -41,6 +47,11 @@ class CustomDropDown(DropDown):
     pass
 
 
+class ContentNavigationDrawer(MDScrollView):
+    screen_manager = ObjectProperty()
+    nav_drawer = ObjectProperty()
+
+
 class ChampionImage(Image):
     def __init__(self, **kwargs):
         super(ChampionImage, self).__init__(**kwargs)
@@ -55,12 +66,15 @@ class StatGrid(GridLayout):
         self.bind(minimum_height=self.setter("height"))
         self.size_hint_y = None
         self.row_default_height = 100
-        # self.pos_hint = {'x': 0.5}
-        # self.width = 0.9
+        # # self.pos_hint = {'x': 0.5}
+        self.width = 0.9
         self.size_hint_x = 0.9
 
 
-# class StatScroll()
+class CustomScroll(ScrollView):
+    def __init__(self, **kwargs):
+        super(CustomScroll, self).__init__(**kwargs)
+        self.scroll_wheel_distance = 200
 
 
 def hide_widget(wid, show=False):
@@ -97,6 +111,10 @@ class MainApp(MDApp):
     @property
     def server_url(self):
         return f"http://{self.config.get('Appsettings', 'server_url')}:{self.config.get('Appsettings', 'port')}"
+
+    @property
+    def username(self):
+        return self.config.get('Appsettings', 'username')
 
     @property
     def lol_client_password(self):
@@ -154,7 +172,7 @@ class MainApp(MDApp):
 
     def build_config(self, config):
         config.setdefaults(
-            'Appsettings', {'server_url': 'pyron.asuscomm.com', 'port': 7000}
+            'Appsettings', {'server_url': 'pyron.asuscomm.com', 'port': 7000, 'username': ""}
         )
 
     def build_settings(self, settings):
@@ -185,7 +203,7 @@ class MainApp(MDApp):
 
         for champion in data:
             # TODO FIX THIS TOTAL
-            total = 100000
+            total = 500000
             pickratio = (champion["wins"] + champion["losses"]) / total * 100
             banratio = champion["bans"] / total * 100
             grid.add_widget(Image(source=self.resource_path(f"icons/{champion['champion']['key']}.png")))
@@ -193,7 +211,11 @@ class MainApp(MDApp):
             grid.add_widget(Label(text=f"{champion['ratio'] * 100:.2f}%"))
             grid.add_widget(Label(text=f"{pickratio:.2f}%"))
             grid.add_widget(Label(text=f"{banratio:.2f}%"))
-        tab.add_widget(MDScrollView(grid))
+
+        scroll = CustomScroll()
+        scroll.add_widget(grid)
+        tab.add_widget(scroll)
+        # tab.add_widget(MDScrollView(grid))
 
     def load_counters(self):
         champion = self.root.ids.counter_input.text
@@ -221,7 +243,9 @@ class MainApp(MDApp):
             grid.add_widget(Label(text=f"{champion['ratio']:.2f}%"))
             grid.add_widget(Label(text=f"{champion['wins']}"))
             grid.add_widget(Label(text=f"{champion['losses']}"))
-        scroll_view.add_widget(MDScrollView(grid))
+        scroll = CustomScroll()
+        scroll.add_widget(grid)
+        scroll_view.add_widget(scroll)
 
     def update_champion_select(self, *args):
 
@@ -229,7 +253,8 @@ class MainApp(MDApp):
             ch_select_url = "lol-champ-select/v1/session"
             basic = HTTPBasicAuth('riot', self.lol_client_password)
             try:
-                response = requests.get(self.lol_client_url + ch_select_url, auth=basic, verify=self.resource_path('riotgames.pem'))
+                response = requests.get(self.lol_client_url + ch_select_url, auth=basic,
+                                        verify=self.resource_path('riotgames.pem'))
             except requests.exceptions.ConnectionError:
                 return
 
@@ -244,6 +269,8 @@ class MainApp(MDApp):
                 return
 
             data = response.json()
+            # f = open('lobby/ranked_picked.json')
+            # data = json.load(f)
 
             if self.champion_select_clock == 10:
                 self.champion_select_schedule.cancel()
@@ -304,7 +331,8 @@ class MainApp(MDApp):
                 "position": pos_map[current_position],
                 "allies": [x[1] for x in allies],
                 "enemies": [x[1] for x in enemies],
-                "bans": bans
+                "bans": bans,
+                "username": self.username
             }
             response = requests.post(url=url, data=post_data)
             prediciton_data = response.json()

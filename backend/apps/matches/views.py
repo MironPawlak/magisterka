@@ -8,7 +8,7 @@ from rest_framework import views, status
 from rest_framework.response import Response
 
 from apps.matches.management.commands.create_csv import translate_champions
-from apps.matches.models import Statistic, Champion, ChampionCounters
+from apps.matches.models import Statistic, Champion, ChampionCounters, PredictionLog
 from apps.matches.serializers import PredictionInputSerializer, StatSerializer, StatisticSerializer, \
     PredictionOutputSerializer, CounterOutputSerializer
 
@@ -48,14 +48,23 @@ class GetPredictionView(views.APIView):
 
         data = {"current_prediction": prediction[0],
                 "top_predictions": prediction_list}
+        output_data = PredictionOutputSerializer(data).data;
 
-        return Response(status=status.HTTP_200_OK, data=PredictionOutputSerializer(data).data)
+        PredictionLog.objects.create(
+            username=vd.get("username"),
+            position=vd["position"],
+            allies=vd["allies"],
+            enemies=vd["enemies"],
+            bans=vd["bans"],
+            predicitons=output_data
+        )
+
+        return Response(status=status.HTTP_200_OK, data=output_data)
 
 
 class GetCountersView(views.APIView):
 
     def get(self, request, *args, **kwargs):
-        filter_date = datetime.date(2025, 1, 8)
         champion = Champion.objects.filter(name__icontains=self.kwargs["name"]).first()
         if champion is None:
             return Response(status=status.HTTP_404_NOT_FOUND)

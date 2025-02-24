@@ -10,7 +10,8 @@ class Command(BaseCommand):
 
         # loaded_matches = SimpleMatch.objects.values_list("riot_id", flat=True).order_by("id")
         # matches = Match.objects.exclude(riot_id__in=loaded_matches).exclude(data__isnull=True)
-        matches = Match.objects.exclude(data__isnull=True).iterator()
+        matches = Match.objects.exclude(data__isnull=True).filter(id__gte=500000).iterator()
+        # matches = Match.objects.exclude(data__isnull=True).iterator()
         for match in matches:
             if SimpleMatch.objects.filter(riot_id=match.riot_id).exists():
                 continue

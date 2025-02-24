@@ -12,5 +12,12 @@
       "desc": "Port to connect to main server",
       "section": "Appsettings",
       "key": "port"
+   },
+   {
+      "type": "string",
+      "title": "Username",
+      "desc": "Username in LoL client",
+      "section": "Appsettings",
+      "key": "username"
    }
 ]

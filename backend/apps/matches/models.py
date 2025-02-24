@@ -85,3 +85,13 @@ class ChampionClass(models.Model):
 class ChampionCounters(models.Model):
     champion = models.ForeignKey(Champion, on_delete=models.CASCADE)
     counters = models.JSONField()
+
+
+class PredictionLog(models.Model):
+    created_at = models.DateTimeField(auto_now_add=True)
+    username = models.CharField(max_length=256, null=True, blank=True)
+    position = models.CharField(max_length=256)
+    allies = models.JSONField()
+    enemies = models.JSONField()
+    bans = models.JSONField()
+    predicitons = models.JSONField()

@@ -1,0 +1,8 @@
+Copy everything from client to PickApp folder
+type this in virtual env:
+pyinstaller -w --icon Icon.ico --debug=all main.py
+Copy SPEC_FILE to main.spec
+recompile spec file:
+pyinstaller main.spec -y
+Create file: "Lorem ipsum.txt" in 'PickApp\\dist\\main\\jaraco\\text\\Lorem ipsum.txt'
+python -c "open('dist/main/jaraco/text/Lorem ipsum.txt', 'w').close()"
